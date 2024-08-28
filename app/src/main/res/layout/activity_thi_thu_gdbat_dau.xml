@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user.ThiThuGDBatDau">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:background="#000"
+        android:textColor="#fff"
+        android:padding="30dp"
+        android:gravity="center"
+        android:text="Bài thi thử sát hạch lý thuyết lái xe hạng A1" />
+
+    <RelativeLayout
+        android:background="#E0F6E0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="100dp"
+            android:paddingBottom="400dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtbatDauLamBaiBAO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16pt"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="ĐỀ SỐ 1" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:text="- Tổng số câu: 25 câu" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:text="- Thời lượng làm bài: 19phút " />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:text="- Số lượng câu đúng tối thiểu 21/15 " />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:text="- Chú ý: Làm sai câu điểm liệt sẽ bị tính là trượt" />
+
+            <Button
+                android:id="@+id/btnBatDauThiBAO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:padding="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Bắt đầu làm bài" />
+
+            <Button
+                android:id="@+id/btnHuyBatDauThiBAO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:padding="20dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#DE1818"
+                android:text="HỦY" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
