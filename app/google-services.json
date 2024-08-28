@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "639610539242",
+    "project_id": "banglaixe-56199",
+    "storage_bucket": "banglaixe-56199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639610539242:android:ab05aa152df4ac98e61b93",
+        "android_client_info": {
+          "package_name": "com.example.tracnghiembanglaixemay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiSyTzHI3SwbXeQ63N4jhOH9OrljSDePs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

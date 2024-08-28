@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+        <item
+            android:id="@+id/home"
+            android:title="Trang chủ"
+            android:icon="@drawable/baseline_home_24"/>
+
+        <item
+            android:id="@+id/huongdan"
+            android:title="Hướng dẫn ghi danh"
+            android:icon="@drawable/baseline_note_alt_24"/>
+    </group>
+    <group >
+        <item
+            android:id="@+id/onthi"
+            android:title="Ôn thi lý thuyết"
+            android:icon="@drawable/baseline_menu_book_24"/>
+        <item
+            android:id="@+id/account"
+            android:title="Tài khoản"
+            android:icon="@drawable/baseline_account_circle_24">
+            <menu >
+                <item
+                    android:id="@+id/logout"
+                    android:title="Đăng xuất"
+                    android:icon="@drawable/baseline_logout_24"/>
+                <item
+                    android:id="@+id/contact"
+                    android:title="Liên hệ"
+                    android:icon="@drawable/baseline_contact_phone_24"/>
+            </menu>
+        </item>
+    </group>
+</menu>

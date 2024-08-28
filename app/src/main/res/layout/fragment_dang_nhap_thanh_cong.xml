@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user.FragmentDangNhapThanhCong">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:background="#000"
+        android:textColor="#fff"
+        android:padding="30dp"
+        android:gravity="center"
+        android:text="\u00A9 Nhóm sinh viên HUIT" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:padding="30dp"
+        android:textStyle="italic"
+        android:text="GVHD: Nguyễn Thị Bích Ngân" />
+
+    <TextView
+        android:id="@+id/textView212"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:padding="10dp"
+        android:background="#090"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:text="Sinh viên thực hiện: " />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:padding="10dp"
+        android:text="Bùi Quốc Bảo - 2001215608" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:padding="10dp"
+        android:text="Phan Chí Tài - 2001216122" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:padding="10dp"
+        android:text="Nguyễn Đoàn Anh Thư - 2001216198" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:padding="10dp"
+        android:text="Mai Thanh Trúc - 2001210828" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:padding="10dp"
+        android:text="Huỳnh Tuấn Khang - 2001215849" />
+</LinearLayout>

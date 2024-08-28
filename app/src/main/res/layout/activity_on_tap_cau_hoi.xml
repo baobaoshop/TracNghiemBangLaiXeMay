@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".user.HOnTapCauHoi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12pt"
+            android:text="Làm lại" />
+    </LinearLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpage2BAO"
+        android:background="#D7F1D7"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </androidx.viewpager2.widget.ViewPager2>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnThuThuPREBAO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12pt"
+            android:text="Pre" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabThiThuBAO"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:tabGravity="start"
+            app:tabMode="auto"
+            app:tabSelectedTextColor="#090"
+            app:tabTextColor="#000"/>
+
+        <Button
+            android:id="@+id/btnThiThuNEXTBAO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12pt"
+            android:text="Next" />
+    </LinearLayout>
+
+</LinearLayout>

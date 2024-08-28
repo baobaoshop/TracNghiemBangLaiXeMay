@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user.BatDauOnTap">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:background="#000"
+        android:textColor="#fff"
+        android:padding="30dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="Ôn tạp câu hỏi " />
+
+    <android.widget.Button
+        android:id="@+id/btnOnTapToanBoCauHoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:layout_marginVertical="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/mybutton"
+        android:text="Toàn bộ câu hỏi" />
+<!--    <Button-->
+<!--        android:id="@+id/btnOnTapToanBoCauHoi"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="12pt"-->
+<!--        android:text="Toàn bộ câu hỏi" />-->
+    <android.widget.Button
+        android:id="@+id/btnOnTapKhaiNiemVaQuyTat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:layout_marginVertical="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/mybutton"
+        android:text="Khái niệm và quy tắt" />
+<!--    <Button-->
+<!--        android:id="@+id/btnOnTapKhaiNiemVaQuyTat"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="12pt"-->
+<!--        android:text="Khái niệm và quy tắt" />-->
+    <android.widget.Button
+        android:id="@+id/btnOnTapVanHoaDaoDuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:layout_marginVertical="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/mybutton"
+        android:text="Văn hóa và đạo đức" />
+<!--    <Button-->
+<!--        android:id="@+id/btnOnTapVanHoaDaoDuc"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="12pt"-->
+<!--        android:text="Văn hóa và đạo đức " />-->
+    <android.widget.Button
+        android:id="@+id/btnOntapKyThuatLaiXe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:layout_marginVertical="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/mybutton"
+        android:text="Kĩ thuật lái xe" />
+<!--    <Button-->
+<!--        android:id="@+id/btnOntapKyThuatLaiXe"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="12pt"-->
+<!--        android:text="Kĩ thuật lái xe " />-->
+    <android.widget.Button
+        android:id="@+id/btnOnTapBienBaoVaDuongBo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:layout_marginVertical="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/mybutton"
+        android:text="Biển báo và đường bộ" />
+<!--    <Button-->
+<!--        android:id="@+id/btnOnTapBienBaoVaDuongBo"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="12pt"-->
+<!--        android:text="Biển báo và đường bộ" />-->
+    <android.widget.Button
+        android:id="@+id/btnOnTapSaHinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:layout_marginVertical="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/mybutton"
+        android:text="Sa hình" />
+<!--    <Button-->
+<!--        android:id="@+id/btnOnTapSaHinh"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="12pt"-->
+<!--        android:text="Sa hình" />-->
+</LinearLayout>
